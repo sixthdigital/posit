@@ -1,0 +1,18 @@
+# Configuration
+.env
+
+# Uploads
+/wp-content/uploads/
+
+# Log files
+*.log
+
+# htaccess
+/.htaccess
+
+# Composer stuff
+/vendor
+/composer.lock
+
+# npm stuff
+**/node_modules
