@@ -1,4 +1,5 @@
-<header class="banner">
+<header class="banner site-header">
+  <div class="container flex">
   <a class="brand" href="<?php echo e(home_url('/')); ?>">
     <?php echo $siteName; ?>
 
@@ -10,5 +11,6 @@
 
     </nav>
   <?php endif; ?>
+  </div>
 </header>
 <?php /**PATH /Volumes/Storage/Websites/posit/wp-content/themes/posit/resources/views/sections/header.blade.php ENDPATH**/ ?>

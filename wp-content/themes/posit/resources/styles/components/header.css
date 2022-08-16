@@ -1,0 +1,11 @@
+header.site-header {
+  @apply flex w-full;
+}
+
+nav.nav-primary {
+ @apply flex;
+}
+
+nav.nav-primary .nav {
+  @apply flex;
+}

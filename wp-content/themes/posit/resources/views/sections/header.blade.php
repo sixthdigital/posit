@@ -1,4 +1,5 @@
-<header class="banner">
+<header class="banner site-header">
+  <div class="container flex">
   <a class="brand" href="{{ home_url('/') }}">
     {!! $siteName !!}
   </a>
@@ -8,4 +9,5 @@
       {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav', 'echo' => false]) !!}
     </nav>
   @endif
+  </div>
 </header>
