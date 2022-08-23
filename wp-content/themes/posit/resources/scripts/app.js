@@ -2,6 +2,7 @@ import {domReady} from '@roots/sage/client';
 import AOS from 'aos';
 //import { demoModule } from './modules/demoModule';
 import { smoothScroll } from './modules/smoothScroll';
+import { mobileMenu } from './modules/mobileMenu';
 /**
  * app.main
  */
@@ -15,6 +16,7 @@ const main = async (err) => {
   AOS.init();
   //demoModule();
   smoothScroll();
+  mobileMenu();
 };
 
 /**

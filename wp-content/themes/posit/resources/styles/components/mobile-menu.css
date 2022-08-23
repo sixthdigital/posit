@@ -1,0 +1,15 @@
+.hamburger {
+  padding: 0;
+}
+
+.mobile-menu {
+  @apply fixed top-0 z-50 h-full overflow-hidden transition-all bg-no-repeat opacity-0 w-80 bg-gray-400 -left-80;
+}
+
+.mobile-menu.is-open {
+  @apply left-0 opacity-100;
+}
+
+.mobile-menu li {
+  margin-top: 12px;
+}
