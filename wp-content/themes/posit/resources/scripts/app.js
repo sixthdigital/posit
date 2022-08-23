@@ -1,6 +1,7 @@
 import {domReady} from '@roots/sage/client';
 import AOS from 'aos';
-
+//import { demoModule } from './modules/demoModule';
+import { smoothScroll } from './modules/smoothScroll';
 /**
  * app.main
  */
@@ -12,6 +13,8 @@ const main = async (err) => {
 
   // application code
   AOS.init();
+  //demoModule();
+  smoothScroll();
 };
 
 /**

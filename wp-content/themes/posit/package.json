@@ -23,6 +23,7 @@
     "@roots/sage": "6.3.3"
   },
   "dependencies": {
-    "aos": "^2.3.4"
+    "aos": "^2.3.4",
+    "jquery": "^3.6.0"
   }
 }
