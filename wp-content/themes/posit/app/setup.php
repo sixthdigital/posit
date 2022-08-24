@@ -134,3 +134,19 @@ add_action('widgets_init', function () {
         'id' => 'sidebar-footer',
     ] + $config);
 });
+
+/**
+ * Allow users to upload SVG images
+ * nb: if SVG uploads are still failing, ensure the SVG file starts with the following tag:
+ * <?xml version="1.0" encoding="utf-8"?>
+ *
+ */
+add_filter('upload_mimes', function($mimes) {
+	$mimes['svg'] = 'image/svg+xml';
+    $mimes['dwg'] = 'image/vnd.dwg';
+	return $mimes;
+});
+
+add_filter('excerpt_length', function($ex_length) {
+	return 20;
+});
