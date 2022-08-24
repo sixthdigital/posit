@@ -10,7 +10,7 @@ ul.main-nav {
 }
 
 ul.main-nav li.menu-item {
-  @apply flex items-center justify-center h-full grow basis-0;
+  @apply flex items-center justify-center h-full grow;
 }
 
 .menu-menu-1-container {
